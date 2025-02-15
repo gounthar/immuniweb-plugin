@@ -25,7 +25,6 @@ import java.util.Base64;
 import java.util.Objects;
 
 import jenkins.tasks.SimpleBuildStep;
-import org.jenkinsci.Symbol;
 import com.fasterxml.jackson.databind.ObjectMapper;
 
 public class ScannerBuilder extends Builder implements SimpleBuildStep {
